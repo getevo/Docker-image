@@ -1,2 +1,7 @@
-FROM ubuntu:20.04
+# Multi stage build
+FROM ubuntu:bionic
 MAINTAINER getevo.com
+
+# need to implement the evo framework 
+#RUN apt-get update && \
+#    apt-get -y install evo 
